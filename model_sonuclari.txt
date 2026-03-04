@@ -1,0 +1,26 @@
+MODEL SONUCLARI RAPORU
+======================
+
+Model: Linear Regression
+RMSE: 5796.2847
+R2 Score: 0.7836
+MAE: 4181.1945
+----------------------
+Model: Random Forest
+RMSE: 4576.2999
+R2 Score: 0.8651
+MAE: 2550.0785
+----------------------
+Model: Gradient Boosting
+RMSE: 4329.5700
+R2 Score: 0.8793
+MAE: 2443.4833
+----------------------
+
+SECILEN EN IYI MODEL: Gradient Boosting
+
+Karsilastirma Tablosu:
+               Model         RMSE  R2 Score          MAE
+2  Gradient Boosting  4329.570011  0.879257  2443.483262
+1      Random Forest  4576.299916  0.865103  2550.078471
+0  Linear Regression  5796.284659  0.783593  4181.194474
